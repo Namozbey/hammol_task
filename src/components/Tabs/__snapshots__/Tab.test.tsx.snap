@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Tab Snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ joHccK"
+    value="doc"
+  >
+    <p
+      class="sc-gsnTZi ZIjmp"
+    >
+      Doc
+    </p>
+  </div>
+</DocumentFragment>
+`;

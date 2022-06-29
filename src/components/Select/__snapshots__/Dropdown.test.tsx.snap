@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Dropdown Snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-jSMfEi brSdaV"
+  >
+    <div
+      class="sc-gsnTZi evzPxy"
+    >
+      Docs
+    </div>
+    <span
+      class="sc-dkzDqf ewRrEr material-icons"
+    >
+      arrow_drop_down
+    </span>
+    <div
+      class="sc-hKMtZM bATtUK"
+    >
+      <label
+        class="sc-eCYdqJ gYrPwk"
+        font-size="20px"
+      >
+        <p>
+          All
+        </p>
+      </label>
+      <label
+        class="sc-eCYdqJ laJkZi"
+        font-size="20px"
+      >
+        <p>
+          Docs
+        </p>
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;

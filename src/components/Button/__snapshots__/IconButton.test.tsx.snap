@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing IconButton Snapshots 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-gsnTZi chukKY"
+  >
+    <span
+      class="material-icons"
+    >
+      more_vert
+    </span>
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,115 @@
+.movie-detail {
+  padding: 29px 60px;
+  background-color: #232323;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .search {
+      color: #f65261;
+      font-size: 40px;
+      cursor: pointer;
+      transform: rotate(90deg);
+    }
+  }
+
+  .content {
+    margin-top: 8px;
+    display: flex;
+    gap: 52px;
+
+    .img-wrapper {
+      width: 100%;
+      max-width: 320px;
+      aspect-ratio: 11 / 15.4;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      img {
+        min-width: 100%;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .right-content {
+      flex: auto;
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        .title {
+          margin: 0;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 49px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+        .rating {
+          min-width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #fff;
+          p {
+            margin: 0;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0px;
+          }
+        }
+      }
+      .brand {
+        margin: 0;
+        margin-top: 4px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba($color: #fff, $alpha: 0.5);
+      }
+      .duration {
+        display: flex;
+        gap: 51px;
+        align-items: center;
+        margin-top: 30px;
+        p {
+          margin: 0;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 29px;
+          letter-spacing: 0px;
+          color: #f65261;
+        }
+      }
+
+      .overview {
+        margin-top: 30px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: rgba($color: #fff, $alpha: 0.5);
+
+        .price-title {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

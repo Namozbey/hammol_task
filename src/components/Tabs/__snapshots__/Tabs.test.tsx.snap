@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Tabs Snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf cJLwIb"
+  >
+    <div
+      class="sc-hKMtZM cMzcUY"
+    >
+      <div
+        class="sc-bczRLJ joHccK"
+        value="all"
+      >
+        <p
+          class="sc-gsnTZi ZIjmp"
+        >
+          All
+        </p>
+      </div>
+      <div
+        class="sc-bczRLJ cPXfuW"
+        value="doc"
+      >
+        <p
+          class="sc-gsnTZi ZIjmp"
+        >
+          Docs
+        </p>
+      </div>
+    </div>
+    <button>
+      Extra
+    </button>
+  </div>
+  <div
+    class="sc-eCYdqJ jhWBFm"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Popover Snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gKXOVf idTazL"
+  >
+    <button>
+      click
+    </button>
+    <div
+      class="sc-iBkjds bEBgQR"
+    >
+      <label
+        class="sc-eCYdqJ egtqok"
+        font-size="16px"
+      >
+        <p>
+          All
+        </p>
+      </label>
+      <label
+        class="sc-eCYdqJ egtqok"
+        font-size="16px"
+      >
+        <p>
+          Docs
+        </p>
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;

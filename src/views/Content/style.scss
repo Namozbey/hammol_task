@@ -1,0 +1,140 @@
+.main-panel {
+  margin-top: 10px;
+  padding: 0 60px 60px;
+  background-color: #232323;
+
+  .tabs-bar {
+    .tabs-extra {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .title {
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.8888887763023376px;
+        text-align: left;
+        color: rgba($color: #fff, $alpha: 0.6);
+        text-transform: uppercase;
+      }
+
+      .dropdown {
+        display: flex;
+        align-items: center;
+        // gap: 12px;
+        user-select: none;
+        -webkit-touch-callout: none;
+        cursor: pointer;
+
+        .title {
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0.8888887763023376px;
+          text-align: left;
+          color: #fff;
+        }
+        span {
+          color: #f65261;
+          font-size: 36px;
+        }
+      }
+    }
+  }
+
+  .movies-list {
+    width: 100%;
+
+    .count {
+      font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-top: 1rem;
+    }
+
+    .list {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 55px;
+
+      .movie-card {
+        position: relative;
+        box-shadow: 0 20px 25px -5px rgb(255 255 255 / 0.1),
+          0 8px 10px -6px rgb(255 255 255 / 0.1);
+        .img-wrapper {
+          width: 100%;
+          aspect-ratio: 16/9;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          cursor: pointer;
+
+          img {
+            min-width: 100%;
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .description {
+          padding: 12px;
+          .title {
+            margin-top: 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+              font-family: Montserrat, sans-serif;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 22px;
+              letter-spacing: 0px;
+              color: rgba($color: #fff, $alpha: 0.7);
+            }
+          }
+
+          .info {
+            margin-top: 8px;
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 17px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba($color: #fff, $alpha: 0.5);
+          }
+        }
+
+        .more-icon {
+          position: absolute;
+          top: 14px;
+          right: 14px;
+          border-radius: 50%;
+          box-shadow: 0 10px 15px -3px rgb(255 255 255 / 0.1),
+            0 4px 6px -4px rgb(255 255 255 / 0.1);
+        }
+      }
+    }
+
+    .pagination-row {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

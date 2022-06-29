@@ -1,0 +1,42 @@
+.nr-input {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  border-radius: 4px;
+  background-color: rgba(50, 50, 50, 0.8);
+  padding: 17px 19px;
+  position: relative;
+  // height: 57px;
+  // width: auto;
+
+  input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    line-height: 24px;
+    height: 24px;
+    font-size: 20px;
+    padding: 0;
+    flex: auto;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+  }
+
+  .open-button {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 27px;
+    pointer-events: none;
+    color: #f65261;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TabPanel Snapshots 1`] = `
+<DocumentFragment>
+  <p>
+    Lorem ipsum dolor sit amet.
+  </p>
+</DocumentFragment>
+`;
